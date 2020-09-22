@@ -434,6 +434,27 @@
 
 
  
+    <section id="comments" style="margin:10px;padding:10px;background:#fff;">
+      <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'false' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "FShhJw9Q1JENUyxdvmRYNYsn-gzGzoHsz",
+            app_key: "VfyM2IbnCOSn9aXsEcfUWkz7",
+            placeholder: "Just go go",
+            avatar:"mm"
+        });
+    }
+</script>
+    </section>
+  
   
 
 
@@ -579,11 +600,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">猫</a>
+                <a href="javascript:void(0)" class="js-tag color5">离家出走</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">离家出走</a>
+                <a href="javascript:void(0)" class="js-tag color2">猫</a>
               </li>
              
               <li class="article-tag-list-item">
